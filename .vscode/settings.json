@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "explorer.compactFolders": false,
+  "git.autorefresh": true,
+  "i18n-ally.localesPaths": ["locales", "app/i18n"],
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.extract.keygenStyle": "PascalCase",
+  "i18n-ally.namespace": true,
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "i18n-ally.dirStructure": "dir",
+  "i18n-ally.enabledParsers": ["json"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.pathMatcher": "{locale}/{namespace}.json",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.annotationInPlace": false,
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "jest.jestCommandLine": "~/.nvm/nvm-exec npm test"
+}
